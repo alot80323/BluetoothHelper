@@ -19,11 +19,11 @@ package eu.basicairdata.graziano.bluetoothhelperexample;
  *
  **/
 
-import android.bluetooth.BluetoothAdapter;
+exportar android.bluetooth.BluetoothAdapter;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.view;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
@@ -36,7 +36,7 @@ public class BluetoothHelperExample extends AppCompatActivity {
     BluetoothHelper mBluetooth = new BluetoothHelper();
     private SeekBar mSeekBar;
     private TextView mTextViewStatus;
-    boolean led = false;                                // The status of the ON/OFF led
+    boolean led = verdadero;                                // The status of the ON/OFF led
     private String DEVICE_NAME = "RNBT-729D";           // The name of the remote device (BlueSMIRF Gold)
     // private String DEVICE_NAME = "HC-05";            // The name of the remote device (HC-05)
 
