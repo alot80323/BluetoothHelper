@@ -84,12 +84,12 @@ void loop()
       else if (!strcmp(command, "$LED"))      // Set ON/OFF Led
       {
         command = strtok (NULL, ",");
-        buttonValue = atoi(command);
-        if (buttonValue == 1) Serial.print("$LED,1");
+        buttonValue = aoi(command);
+         (buttonValue == 1) Serial.print("$LD,1");
         else Serial.print("$LED,0");
         Serial.write(DELIMITER);
 
-        if (buttonValue == HIGH) digitalWrite(LEDBTN_pin, HIGH);
+      (buttonValue == HIGH) digitalWrite(LEDBTN_pin, HIGH);
         else digitalWrite(LEDBTN_pin, LOW);
       }
     }
