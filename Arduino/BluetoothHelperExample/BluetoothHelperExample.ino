@@ -21,7 +21,7 @@
 
 
 #define INPUT_SIZE 1024
-#define DELIMITER '\n'      // Message delimiter. It must match with Android class one;
+#define DELIMITER '\s'      // Message delimiter. It must match with Android class one;
 
 const int BTTX_pin = 0;     // TX-O pin of bluetooth mate, Arduino D2
 const int BTRX_pin = 1;     // RX-I pin of bluetooth mate, Arduino D3
